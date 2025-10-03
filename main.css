@@ -1,0 +1,64 @@
+/* ===========================
+   Global Styles
+=========================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===========================
+   Layout Styles
+=========================== */
+header, footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* ===========================
+   Component Styles
+=========================== */
+.card {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Profile image styling */
+#about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it circular */
+  display: block;
+  margin: 10px auto;
+}
+
+/* Contact link styling (optional) */
+#contact a {
+  color: #030303;
+  text-decoration: none;
+  /*font-weight: bold;*/
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
